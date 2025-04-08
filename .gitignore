@@ -1,0 +1,134 @@
+# --------------------------------------------------
+# Java
+# --------------------------------------------------
+*.class
+*.jar
+*.war
+*.ear
+
+# Package files
+*.zip
+*.tar.gz
+*.rar
+
+# Logs
+*.log
+
+# --------------------------------------------------
+# Maven
+# --------------------------------------------------
+target/
+.mvn/
+!.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.properties
+
+# --------------------------------------------------
+# Gradle
+# --------------------------------------------------
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+.gradle/
+build/
+out/
+
+# Gradle caches
+**/build/
+**/out/
+
+# --------------------------------------------------
+# Spring Boot
+# --------------------------------------------------
+/*.iml
+/logs
+*.log
+*.pid
+*.gz
+
+# --------------------------------------------------
+# OS-specific
+# --------------------------------------------------
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# --------------------------------------------------
+# IDEs and Editors
+# --------------------------------------------------
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+### Eclipse ###
+.metadata/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+*.launch
+.settings/
+.classpath
+.project
+.buildpath
+/.classpath
+/.project
+/.settings/
+
+### STS ###
+.apt_generated
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+# --------------------------------------------------
+# Others
+# --------------------------------------------------
+
+# Environment
+.env
+.env.*
+
+# Database
+*.h2.db
+*.mv.db
+*.db
+
+# Node
+node_modules/
+npm-debug.log
+
+# Coverage
+coverage/
+*.lcov
+
+# Reports
+*.csv
+*.out
+*.coverage
+/test-output/
+
+# IntelliJ compile output
+/out/
+
+# Temporary files
+tmp/
+*.swp
+*.swo
